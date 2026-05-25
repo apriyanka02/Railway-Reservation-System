@@ -6,17 +6,17 @@ public class Passenger {
     private Gender gender;
     private BerthPreference berthPreference;
 
-    public Passenger(String ticketId, String name, int age, Gender gender, boolean berthPrefered) {
+    public Passenger(String name, int age, Gender gender,BerthPreference berthPreference) {
         this.name = name;
         this.age = age;
         this.gender = gender;
         this.berthPreference = berthPreference;
     }
-
-    public Passenger(String name, int age, Gender gender, BerthPreference berthPrefered) {
-
+    public Passenger(String name, int age, Gender gender) {
+        this.name = name;
+        this.age = age;
+        this.gender = gender;
     }
-
     public String getName() {
         return name;
     }

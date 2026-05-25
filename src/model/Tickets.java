@@ -7,7 +7,7 @@ public class Tickets {
     private  BerthPreference berthAllocated;
 
 
-    public Tickets(int ticketId, Passenger passenger, Status status, BerthPreference berthAllocated) {
+    public Tickets(int ticketId, Status status, BerthPreference berthAllocated,Passenger passenger) {
         TicketId = ticketId;
         this.passenger = passenger;
         this.status = status;
